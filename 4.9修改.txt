@@ -1,0 +1,18 @@
+SMICWebCoreModule
+缓存设置：统计图表数据缓存
+
+Utils
+异常设置
+
+SMIC.Migrator
+
+SMIC.EntityFrameworkCore
+EFLoggerFactory
+EntityMapper -> Dapper 用
+
+EntityFrameworkCore
+双 DbContext
+
+Core
+
+Application

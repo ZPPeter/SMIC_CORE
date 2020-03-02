@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <VersionPrefix>1.0.0.0</VersionPrefix>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <AssemblyName>SMIC.Application</AssemblyName>
+    <PackageId>SMIC.Application</PackageId>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <RootNamespace>SMIC</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="SDIM\SJMX\JDRQAppServices.cs" />
+    <Compile Remove="SDIM\SJMX\PersonAppService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Abp.Dapper" Version="5.2.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SMIC.Core\SMIC.Core.csproj" />
+    <ProjectReference Include="..\SMIC.SJCL\SMIC.SJCL.Common\SMIC.SJCL.Common.csproj" />
+  </ItemGroup>
+</Project>

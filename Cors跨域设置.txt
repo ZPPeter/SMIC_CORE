@@ -1,0 +1,3 @@
+private const string _defaultCorsPolicyName = "localhost";
+
+appSettings.json  ≈‰÷√“™”–  http://localhost

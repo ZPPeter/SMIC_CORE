@@ -1,0 +1,10 @@
+
+对于非强制检定的器具可以检定，也可以校准。
+只要不在强检目录里面的，校准是可以的。
+
+CMA CNAS 校准证书
+
+CMA标示应当只能用在检测报告，产品鉴定证书，司法委托技术机构出具的产品测试报告
+
+CMA是针对检验检测机构的资质认定(China Inspection Body and Laboratory Mandatory Approval)，或者叫计量认证(China Metrology Accreditation)，
+而不是对校准机构的资质认证。校准机构的能力认可是CNAS，而不是CMA。

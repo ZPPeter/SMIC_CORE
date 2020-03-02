@@ -1,0 +1,24 @@
+Swagger
+https://github.com/domaindrivendev/Swashbuckle.AspNetCore
+
+ if (AbpSession.UserId.HasValue)
+ {
+    output.User = ObjectMapper.Map<UserLoginInfoDto>(await GetCurrentUserAsync());
+ }
+
+统计缓存测试！
+
+/*   // 运行时机或者触发器
+            string strSQL = @"
+            UPDATE YQSF_SJD
+            SET yqjs = (
+                SELECT COUNT(*) FROM YQSF_SJMX WHERE SJDID = YQSF_SJD.id
+            )";
+            try
+            {
+                _cntDapperRepository.Execute(strSQL); // 超时
+            }
+            catch { }
+            */
+
+数据库优化：PK FK Index

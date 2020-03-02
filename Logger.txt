@@ -1,0 +1,15 @@
+MVC Controllers：继承XXAbpController基类
+
+Web API Controllers：继承XXAbpApiController基类
+
+Application service classes：继承XXAppServiceBase基类
+
+这些自带有 Logger 可直接使用
+
+不能用的模块可以引用 NLog.Web.AspNetCore
+Logger logger = LogManager.GetCurrentClassLogger();
+logger.Error("1213213");
+不用类似如下再配置 
+在Startup.cs的Configure中，添加代码：
+loggerFactory.AddNLog();
+NLog.Web.NLogBuilder.ConfigureNLog("NLog.config");

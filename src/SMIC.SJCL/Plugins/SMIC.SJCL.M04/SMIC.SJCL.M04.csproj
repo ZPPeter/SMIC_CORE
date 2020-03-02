@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Plugins.SJCL.M04</AssemblyName>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>E:\JLMISIII\SMIC_VUE\aspnet-core\src\SMIC.Web.Host\wwwroot\Plugins</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\IPlugin\IPlugin.csproj" />
+    <ProjectReference Include="..\..\SMIC.SJCL.Common\SMIC.SJCL.Common.csproj" />
+  </ItemGroup>
+
+</Project>
